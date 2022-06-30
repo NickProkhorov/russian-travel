@@ -1,0 +1,28 @@
+.place__paragraph {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 29px;
+  font-family: "Inter";
+  font-style:  normal;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+  }
+}
+
+
+
