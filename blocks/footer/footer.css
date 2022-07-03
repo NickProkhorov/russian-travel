@@ -8,10 +8,20 @@ padding-top: 92px;
 padding-bottom: 24px;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .footer {
+    max-width: 928px;
+   }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .footer {
+    max-width: 720px;
+   }
+}
 
 @media screen and (max-width: 320px) {
   .footer {
-    display: flex;
     flex-direction: column;
     padding-top: 64px;
     padding-bottom: 24px;

@@ -3,31 +3,29 @@
   color: #ffffff;
   font-size: 72px;
   line-height: 76px;
-  font-family: "Inter";
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style:  normal;
   font-weight: 900;
-  max-width: 460px;
-}
-@media screen and (max-width: 1024px) and (min-width: 769px) {
-  .place__title {
-    max-width: 440px;
-   }
+  align-self: end;
+  text-align: left;
 }
 
-@media screen and (max-width: 768px) and (min-width: 321px) {
+@media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    max-width: 340px;
    }
+}
 
+@media screen and (max-width: 752px) {
+  .place__title {
+    padding: 0 16px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    max-width: 288px;
-    margin-left: 16px;
   }
 }
