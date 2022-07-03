@@ -10,12 +10,6 @@
   text-align: center;
 }
 
-.cover::after {
-  content: "";
-  width: 0;
-  padding-top: calc(740/1184*100%);
-}
-
 @media screen and (max-width: 1024px) and (min-width: 769px){
   .cover {
     max-width: 1024px;
